@@ -1,0 +1,244 @@
+<html>
+<head>
+
+        <meta name="viewport" content="width=device-width">
+        <title>ROS Development Diary</title>
+        <!--<link rel="shortcut icon" type="image/png" href="img\metalogo.png"/>-->
+
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script src="data.js" charset="utf-8"></script>
+        <style>
+            ul.timeline {
+                list-style-type: none;
+                position: relative;
+            }
+            ul.timeline:before {
+                content: ' ';
+                background: #d4d9df;
+                display: inline-block;
+                position: absolute;
+                left: 29px;
+                width: 2px;
+                height: 100%;
+                z-index: 400;
+            }
+            ul.timeline > li {
+                margin: 20px 0;
+                padding-left: 20px;
+                margin-bottom: 5rem
+            }
+            ul.timeline > li.last:before {
+                content: ' ';
+                background: #212529;
+                display: inline-block;
+                position: absolute;
+                border-radius: 50%;
+                border: 4px solid grey;
+                left: 20px;
+                width: 20px;
+                height: 20px;
+                z-index: 400;
+            }
+            ul.timeline > li:before {
+                content: ' ';
+                background: white;
+                display: inline-block;
+                position: absolute;
+                border-radius: 50%;
+                border: 3px solid grey;
+                left: 20px;
+                width: 20px;
+                height: 20px;
+                z-index: 400;
+            }
+            .github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
+          
+        </style>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding: 1rem">
+                <a class="navbar-brand" href="index.html">
+                <!--<img src="img\metalogo.png" width="50" height="50" class="d-inline-block align-top" alt="">-->
+               Rimini Old School <br>
+                <small>Development Diary</small>
+                </a>
+                    </nav>
+                    <!--METTERE LINK-->
+                    <a href="" class="github-corner" aria-label="View source on GitHub" target="_blank"><svg width="92" height="92" viewBox="0 0 250 250" style="fill: purple; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+                    <div class="container mt-5 mb-5">
+	<div class="row">
+		<div class="col-md-6 offset-md-3">
+			<h4>Latest News</h4>
+			<ul id="week-container" class="timeline">
+                   
+			</ul>
+		</div>
+	</div>
+</div>
+<footer class="footer bg-dark text-white" style="margin-bottom: 0px;margin-top: 60; padding: 20px">
+            
+        <div class="container-fluid text-center py-2" style="font-size: 80%">
+                <div  style="margin-bottom: 10px">
+                        <b>Powered by:</b> 
+                        <a href="https://getbootstrap.com/" class="text-light" target="_blank">Bootstrap</a> <span>and</span>
+                        <a href="https://github.com/FabioMariani/FabioMariani.github.io/tree/master/ModernMigrants" class="text-light" target="_blank">Fabio Mariani</a> 
+                </div>
+                  
+        
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0" target="_blank"><img alt="Creative Commons License" style=" border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /> <p style="margin: 0px; font-size: 8pt">This work is licensed under a <a style="color: grey;" rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a></p>
+</footer>
+
+
+    <div id="modal-container">
+
+    </div>
+      
+
+      </body>
+
+      <script>
+          $.getJSON("data.json", function(json) {
+            console.log(json); // this will show the info it in firebug console
+        });
+
+        for (var i = 0; i < data.length; i++) {
+            if (data[i]["title"]){
+
+                num = i + 1
+                var ul = document.getElementById("week-container");
+                var li = document.createElement("li");
+                
+                var titlep = document.createElement("p") 
+                var title = document.createElement("h5") 
+                title.setAttribute("class", "d-inline")
+                title.appendChild(document.createTextNode(data[i]["title"]))
+                titlep.appendChild(title)
+
+                var period = document.createElement("b")
+                period.setAttribute('class',"float-right")
+                period.appendChild(document.createTextNode(data[i]["period"][0] + " to " + data[i]["period"][1]))
+                titlep.appendChild(period)
+
+                li.appendChild(titlep)
+
+                var p = document.createElement("p")
+                li.appendChild(p)
+                var inner_ul = document.createElement("ul")
+                p.appendChild(inner_ul)
+
+                for (var h = 0; h < data[i]['highlights'].length; h++) {
+                    var inner_li = document.createElement("li")
+                    inner_li.appendChild(document.createTextNode(data[i]["highlights"][h]))
+                    inner_ul.appendChild(inner_li)
+                }
+
+                var button = document.createElement("button")
+                button.setAttribute("type", "button")
+                button.setAttribute("class", "btn btn-primary")
+                button.setAttribute("data-toggle", "modal")
+                button.setAttribute("data-target", "#modal_" + num)
+                button.appendChild(document.createTextNode("Read Report"))
+                li.appendChild(button)
+                        
+                li.setAttribute("id", num);
+                if (i+2 == data.length){
+                    li.setAttribute("class", "last");
+                }
+                ul.prepend(li);
+
+                
+                var modal = $('<div class="modal fade" id= "modal_' + num + '" tabindex="-1" role="dialog">\
+                                    <div class="modal-dialog modal-lg" role="document">\
+                                        <div class="modal-content">\
+                                            <div class="modal-header">\
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Week ' + num + ' Report</h5>\
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">\
+                                                    <span aria-hidden="true">&times;</span>\
+                                                </button>\
+                                            </div>\
+                                            <div class="modal-body" id="modal_' + num + '_content">\
+                                            </div>\
+                                            <div class="modal-footer">\
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>\
+                                            </div>\
+                                        </div>\
+                                    </div>\
+                                </div>')
+
+                $("#modal-container").append(modal)
+
+                if (data[i]['monday']){
+                    $("#modal_" + num + "_content").append('<h5><b>Monday</b></h5>')
+                    var mon_ul = $('<ul/>');
+                    $("#modal_" + num + "_content").append(mon_ul)
+                    for (var a = 0; a < data[i]['monday'].length; a++) {
+                        var monday = '<li><b>' + data[i]['monday'][a]['title'] + '</b><br>\
+                                        <p>' + data[i]['monday'][a]['text'] + '</p>\
+                                    </li>'
+                        mon_ul.append(monday)
+
+                    }
+                }
+
+                if (data[i]['tuesday']){
+                    $("#modal_" + num + "_content").append('<h5><b>Tuesday</b></h5>')
+                    var tue_ul = $('<ul/>');
+                    $("#modal_" + num + "_content").append(tue_ul)
+                    for (var b = 0; b < data[i]['tuesday'].length; b++) {
+                        var tuesday = '<li><b>' + data[i]['tuesday'][b]['title'] + '</b><br>\
+                                        <p>' + data[i]['tuesday'][b]['text'] + '</p>\
+                                    </li>'
+                        tue_ul.append(tuesday)
+
+                    }
+                }
+
+                if (data[i]['wednesday']){
+                    $("#modal_" + num + "_content").append('<h5><b>Wednesday</b></h5>')
+                    var wed_ul = $('<ul/>');
+                    $("#modal_" + num + "_content").append(wed_ul)
+                    for (var f = 0; f < data[i]['wednesday'].length; f++) {
+                        var wednesday = '<li><b>' + data[i]['wednesday'][f]['title'] + '</b><br>\
+                                        <p>' + data[i]['wednesday'][f]['text'] + '</p>\
+                                    </li>'
+                        wed_ul.append(wednesday)
+
+                    }
+                }
+
+                if (data[i]['thursday']){
+                    $("#modal_" + num + "_content").append('<h5><b>Thursday</b></h5>')
+                    var thu_ul = $('<ul/>');
+                    $("#modal_" + num + "_content").append(thu_ul)
+                    for (var f = 0; f < data[i]['thursday'].length; f++) {
+                        var thursday = '<li><b>' + data[i]['thursday'][f]['title'] + '</b><br>\
+                                        <p>' + data[i]['thursday'][f]['text'] + '</p>\
+                                    </li>'
+                        thu_ul.append(thursday)
+
+                    }
+                }
+
+                if (data[i]['friday']){
+                    $("#modal_" + num + "_content").append('<h5><b>Friday</b></h5>')
+                    var fri_ul = $('<ul/>');
+                    $("#modal_" + num + "_content").append(fri_ul)
+                    for (var f = 0; f < data[i]['friday'].length; f++) {
+                        var friday = '<li><b>' + data[i]['friday'][f]['title'] + '</b><br>\
+                                        <p>' + data[i]['friday'][f]['text'] + '</p>\
+                                    </li>'
+                        fri_ul.append(friday)
+
+                    }
+                }
+
+            }
+        }
+
+
+      </script>
