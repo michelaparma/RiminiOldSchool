@@ -21,12 +21,12 @@ var data = [
         
         "wednesday":[
             {
-                "title":"",
-                "text":""
+                "title":"Informative and photographic material",
+                "text":"I continued my research for information and photographs in the library."
             },
             {
-                "title":"",
-                "text":""
+                "title":"Bibliographic consultation",
+                "text":"The following documents have been consulted: <br> - C. Cederna, <i>Casa nostra</i>, Milano, A. Mondadori, 1983. <br> - A. Bonomi, <i>Il distretto del piacere</i>, Torino, Bollati Boringhieri, 2000. <br> - F. Farina, <i>Una costa lunga due secoli: storie e immagini della riviera di Rimini</i>, Rimini, Fondazione Cassa di Risparmio, 2003. <br> - F. Farina, <i>1843-1993: centocinquant'anni di vita balneare</i>, Rimini, Societa Gas, 1993. <br> - O. Maroni (edited by), <i>Davide Minghini fotografo in Rimini: immagini dall'archivio</i>, Bologna, Compositori, 2003. <br> - V. Bessone, <i>La divina notte: viaggio quasi dantesco fra i gironi delle discoteche riminesi</i>, Rimini, Guaraldi, 1994. <br> - P. Pacoda, <i>Riviera Club Culture: la scena dance nella metropoli balneare d'Europa</i>, Cerasolo Ausa di Coriano, NdA Press, 2012. <br> - M. Zardini, <i>Nomare: nascita e sviluppo della metropoliriviera</i>, Bologna, Editrice Compositori, 2006. <br> - C. Branzaglia (edited by), <i>NightWave: atti dei convegni</i>, Genova, Costa & Nolan, 1998. <br> - P. V. Tondelli, <i>Un weekend postmoderno: cronache dagli anni Ottanta</i>, Milano, Bompiani, 1990."
             }
         ],
         "thursday":[
