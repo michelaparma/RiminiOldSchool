@@ -1,7 +1,7 @@
 [
     {
         "title":"Week1",
-        "period":["31-08-2020","04-09-2020"],
+        "period":["02-09-2020","04-09-2020"],
         "highlights":
                     [
                         "test1",
@@ -37,6 +37,13 @@
                 "text":"test"
             }
         ],
+
+        "saturday":[
+            {
+                "title":"test",
+                "text":"test"
+            }
+        ]
 
     },
 

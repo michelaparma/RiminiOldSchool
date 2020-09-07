@@ -233,6 +233,19 @@
                     }
                 }
 
+                if (data[i]['saturday']){
+                    $("#modal_" + num + "_content").append('<h5><b>Saturday</b></h5>')
+                    var sat_ul = $('<ul/>');
+                    $("#modal_" + num + "_content").append(sat_ul)
+                    for (var f = 0; f < data[i]['saturday'].length; f++) {
+                        var saturday = '<li><b>' + data[i]['saturday'][f]['title'] + '</b><br>\
+                                        <p>' + data[i]['saturday'][f]['text'] + '</p>\
+                                    </li>'
+                        sat_ul.append(saturday)
+
+                    }
+                }
+
             }
         }
 

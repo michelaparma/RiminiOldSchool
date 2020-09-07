@@ -32,20 +32,19 @@ var data = [
         "friday":[
             {
                 "title":"Bibliographic consultation",
-                "text":" The following documents have been consulted: <br> - V. Bessone, <i>La divina notte: viaggio quasi dantesco fra i gironi delle discoteche riminesi</i>, Rimini, Guaraldi, 1994. <br> - P. Pacoda, <i>Riviera Club Culture: la scena dance nella metropoli balneare d'Europa</i>, Cerasolo Ausa di Coriano, NdA Press, 2012. <br> - M. Zardini, <i>Nomare: nascita e sviluppo della metropoliriviera</i>, Bologna, Editrice Compositori, 2006. <br> - C. Branzaglia (edited by), <i>NightWave: atti dei convegni</i>, Genova, Costa & Nolan, 1998. <br> - P. V. Tondelli, <i>Un weekend postmoderno: cronache dagli anni Ottanta</i>, Milano, Bompiani, 1990."
+                "text":"The following documents have been consulted: <br> - V. Bessone, <i>La divina notte: viaggio quasi dantesco fra i gironi delle discoteche riminesi</i>, Rimini, Guaraldi, 1994. <br> - P. Pacoda, <i>Riviera Club Culture: la scena dance nella metropoli balneare d'Europa</i>, Cerasolo Ausa di Coriano, NdA Press, 2012. <br> - M. Zardini, <i>Nomare: nascita e sviluppo della metropoliriviera</i>, Bologna, Editrice Compositori, 2006. <br> - C. Branzaglia (edited by), <i>NightWave: atti dei convegni</i>, Genova, Costa & Nolan, 1998. <br> - P. V. Tondelli, <i>Un weekend postmoderno: cronache dagli anni Ottanta</i>, Milano, Bompiani, 1990."
             },
 
-        ], 
+        ],
+        
     },
 
     {
-        "title":"",
-        "period":["",""],
+        "title":"Week 2",
+        "period":["07/09/2020","11/09/2020"],
         "highlights":
                     [
-                        "",
-                        "",
-                        ""
+                        
                     ],
         "monday":[
             {
