@@ -48,26 +48,14 @@ var data = [
                     ],
         "monday":[
             {
-                "title":"",
-                "text":""
-            },
-            {
-                "title":"",
-                "text":""    
-            },
-            {
-                "title":"",
-                "text":""
+                "title":"Data collection",
+                "text":"I have collected and selected the names of the most popular discos and restaurants in the 70s, 80s and 90s in Rimini. I have catalogued them by associating each place, opening and closing date (when possible), notes, logos and advertising. Some of them are still in business and often have a website."
             }
         ],
         "tuesday":[
             {
-                "title":"",
-                "text":""
-            },
-            {
-                "title":"",
-                "text":""
+                "title":"Data collection",
+                "text":"I have completed the data collection work on discos and restaurants in Rimini. <br> As I expected, the work of research of all the information was long and required the analysis of many websites dealing with the topic. In fact, many discos analyzed were active between the 80s and 90s, when internet and websites were still not widespread. Therefore, the retrieval of reliable information, such as opening and closing dates, required a lot of research (many clubs were left without this kind of data). <br> The data are collected within this excel file: <a href='https://docs.google.com/spreadsheets/d/1yUap9mFR-lBYeTuJhRQm0MhJ6ObxNW4jbf-3LNdcOp0/edit?usp=sharing' target='_blank'>locali_rimini.xlsx</a>."
             }
         ],
         "wednesday":[
