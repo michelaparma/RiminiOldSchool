@@ -64,13 +64,13 @@ var data = [
         ],
         "wednesday":[
             {
-                "title":"Analysis of competitors",
+                "title":"Analysis of competitors' website",
                 "text":"Two competitors have been identified: <br> - <a href='https://riminisparita.it/' target='_blank'>Rimini Sparita</a> <br> - <a href='https://www.seidiriminise.it/' target='_blank'>Sei di Rimini se</a> <br> The first site to be analysed was that of <i>Rimini Sparita</i>. The method selected for the analysis was the one proposed by <a href='https://www.userfocus.co.uk/resources/guidelines.html' target='_blank'>Userfocus.co.uk</a>, through a Web Usability Checklist which includes 247 guidelines to compare with the website under examination. <br> The report of the analysis of the <i>Rimini Sparita</i> website can be consulted at the following link: <a href='https://docs.google.com/document/d/11BdIeQJ8PE5Ymx-aRnmBVvNE11QtDvIIOlVrQPacQzI/edit?usp=sharing' target='_blank'>CompetitorsAnalysis</a>."
             },
         ],
         "thursday":[
             {
-                "title":"Analysis of competitors",
+                "title":"Analysis of competitors' website",
                 "text":"The second website to be analysed with the guidelines proposed by <a href='https://www.userfocus.co.uk/resources/guidelines.html' target='_blank'>Userfocus.co.uk</a> is <i>Sei di Rimini se</i>. The report can be consulted at the link <a href='https://docs.google.com/document/d/11BdIeQJ8PE5Ymx-aRnmBVvNE11QtDvIIOlVrQPacQzI/edit?usp=sharing' target='_blank'>CompetitorsAnalysis</a> in the 'Sei di Rimini se' section."
             },
         ], 
@@ -79,38 +79,52 @@ var data = [
                 "title":"Analysis of Rimini Old School project",
                 "text":"An in-depth analysis of the developing project has been carried out through the <i>5 why rule</i> (i.e. a method that allows you to get to the heart of the project) and through the <i>Golden Circle</i> method - Why, How, What. The analysis is avalaible at this link <a href='https://docs.google.com/document/d/1b07d5wics2OKp4EoB_1hiTzlE_5YP30CqONqYQqOV_0/edit?usp=sharing' target='_blank'>5Why+GoldenCircle</a>."
             },
-        ],
+        ]
     },
 
     
 
     {
-        "title":"",
-        "period":["",""],
+        "title":"Week 3",
+        "period":["14/09/2020","18/09/2020"],
         "highlights":
                     [
-                        "",
-                        ""
+                        "Digital Brochure of Rimini Old School",
+                        "Analysis of competitors' social networks"
+                      
                     ],
-        "achievements":[
+        "monday":[
+            {
+                "title":"Rimini Old School Digital brochure",
+                "text":"The digital brochure of the project has been produced through <a href='https://www.canva.com/' target='_blank'>Canva</a> and it will be used to explain to any stakeholders the purpose of the project."
+            }
+        ],
+        "tuesday":[
+            {
+                "title":"Analysis of competitors' social networks",
+                "text":"The competitors identified in the previous phase (<i>Rimini Sparita</i> and <i>Sei di Rimini Se</i>) have been further analysed. In particular, an analysis of their Facebook and Instagram profiles was carried out through the online tool offered by <a href='https://www.socialinsider.io/' target='_blank'>Social Insider</a>. <br> The results of the analysis are available at <a href='https://docs.google.com/document/d/11BdIeQJ8PE5Ymx-aRnmBVvNE11QtDvIIOlVrQPacQzI/edit?usp=sharing' target='_blank'>CompetitorsAnalysis</a>, in the section 'Analysis of competitors' social networks'."
+            }
+        ],
+        "wednesday":[
             {
                 "title":"",
                 "text":""
             }
         ],
-        "brainstorming":[
+        "thursday":[
             {
                 "title":"",
                 "text":""
             }
         ],
-        "future":[
+        "friday":[
             {
                 "title":"",
                 "text":""
             }
         ]
-    }
+        
+    },
 
 
 

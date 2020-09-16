@@ -48,31 +48,99 @@
     },
 
     {
-        "title":"",
-        "period":["",""],
+        "title":"Week 2",
+        "period":["02-09-2020","04-09-2020"],
         "highlights":
                     [
-                        "",
-                        ""
+                        "test1",
+                        "test2"
                     ],
-        "achievements":[
+        "monday":[
             {
-                "title":"",
-                "text":""
+                "title":"test",
+                "text":"test"
             }
         ],
-        "discussion":[
+        "tuesday":[
             {
-                "title":"",
-                "text":""
+                "title":"test",
+                "text":"test"
             }
         ],
-        "future":[
+        "wednesday":[
             {
-                "title":"",
-                "text":""
+                "title":"test",
+                "text":"test"
+            }
+        ],
+        "thursday":[
+            {
+                "title":"test",
+                "text":"test"
+            }
+        ],
+        "friday":[
+            {
+                "title":"test",
+                "text":"test"
+            }
+        ],
+
+        "saturday":[
+            {
+                "title":"test",
+                "text":"test"
             }
         ]
+
+    },
+
+    {
+        "title":"Week 3",
+        "period":["14-09-2020","18-09-2020"],
+        "highlights":
+                    [
+                        "test1",
+                        "test2"
+                    ],
+        "monday":[
+            {
+                "title":"test",
+                "text":"test"
+            }
+        ],
+        "tuesday":[
+            {
+                "title":"test",
+                "text":"test"
+            }
+        ],
+        "wednesday":[
+            {
+                "title":"test",
+                "text":"test"
+            }
+        ],
+        "thursday":[
+            {
+                "title":"test",
+                "text":"test"
+            }
+        ],
+        "friday":[
+            {
+                "title":"test",
+                "text":"test"
+            }
+        ],
+
+        "saturday":[
+            {
+                "title":"test",
+                "text":"test"
+            }
+        ]
+
     }
 
 
