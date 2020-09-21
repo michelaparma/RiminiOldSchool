@@ -90,7 +90,9 @@ var data = [
         "highlights":
                     [
                         "Digital Brochure of Rimini Old School",
-                        "Analysis of competitors' social networks"
+                        "Analysis of competitors' social networks",
+                        "Indirect competitors search",
+                        "Bibliographic consultation"
                       
                     ],
         "monday":[
@@ -107,25 +109,63 @@ var data = [
         ],
         "wednesday":[
             {
+                "title":"Search for indirect competitors",
+                "text":"The search for indirect competitors has brought no results. Although the tourist and/or city promotion sites of the major Italian cities have been analysed, nothing was found that offers a service similar to the one to be developed in the Rimini Old School project."
+            }
+        ],
+        "thursday":[
+            {
+                "title":"Bibliographic consultation",
+                "text":"The book 'S. Anholt, <i>L'identità competitiva. Il branding di nazioni, città, regioni</i>, Milano, EGEA, 2007' has been analysed as useful reference for the study of branding of cities."
+            },
+            {
+                "title":"Company briefing",
+                "text":"A briefing was held with the company to analyse the stage of the work carried out and decide on the next steps."
+            }
+        ],
+        
+        
+    }, 
+
+{
+        "title":"Week 4",
+        "period":["21/09/2020","25/09/2020"],
+        "highlights":
+                    [
+                        
+                    ],
+                    
+        "monday":[
+            {
                 "title":"",
                 "text":""
             }
+        ],
+        "tuesday":[
+            {
+                "title":"",
+                "text":""
+            }
+        ],
+        "wednesday":[
+            {
+                "title":"",
+                "text":""
+            },
         ],
         "thursday":[
             {
                 "title":"",
                 "text":""
-            }
-        ],
+            },
+        ], 
         "friday":[
             {
                 "title":"",
                 "text":""
-            }
+            },
         ]
-        
-    },
-
+    }
 
 
 ]
