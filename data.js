@@ -132,9 +132,58 @@ var data = [
         "period":["21/09/2020","25/09/2020"],
         "highlights":
                     [
-                        
+                        "Definition of project stages and project's strategic assets",
+                        "Logo design",
+                        "Target analysis and creation of user personas types"
+
                     ],
                     
+        "monday":[
+            {
+                "title":"Digital brochure update",
+                "text":"The digital brochure has been expanded to include the detailed steps to follow to develop the project and the strategic assets of the project. The 8 strategic assets have been identified and analysed in depth. They include: <br>- Marketing: Market analysis, Brand positioning, Brand identity, Brand world, Marketing mix, Launch strategies. <br>- Content Production: Manifesto and principles, Belief system, Awareness, Testimony/ Case studies, Sale. <br>- Web Site: User Oriented, Clear message, Intuitive navigation, Visual indications, Functionality and Interactivity. <br>- Social and Ads: Content production and storytelling, Social networks management, Blog, Videomaking, Web campaing, Visual content, Graphics, Crowdfunding. <br>- KPI Monitoring <br>- Human resources: Social media manager, Designer, Social media advertisor, Video making, Event manager. <br>- Budgeting <br>- Physical experince/Events: <i>Rimini Old School presents: Iconic Brand Awards</i>"
+            }
+        ],
+        "tuesday":[
+            {
+                "title":"Definition of KPI of 2021",
+                "text":"The KPI (Key Performance Indicator) to be reached by 2021 are: <br>- Reach 2,000/3,000 registered users on the portal. <br>- Reach 10,000 fans on Facebook and 10,000 followers on Instagram. <br>- Realize a revival event with at least 1.000 people. <br>- Sell merchandising worth €50,000 (30% margin: profit of €15,000). <br>- Collect € 50,000 in sponsorships and donations."
+            },
+
+            {   "title":"Definition of budgeting",
+                "text":"The cost and revenue budget of the project has been studied taking into account two plans: <br>- Excellence plan: high budget. <br>- Step-by-step plan: medium budget. <br>The budgeting plan is available here: <a href='https://docs.google.com/spreadsheets/d/1oK7Q1fnahbwBfpNqJgNAqAjRt8vtCI_DP1AOWKFebXE/edit?usp=sharing>' target='_blank'> Ricavi/Costi</a>"
+            }, 
+
+            {
+                "title":"Logo design",
+                "text":"The project's logo has been designed taking inspiration from the traditional symbols of the Romagna Riviera. It is a first version of the idea. it will be modified and made graphically usable by a professional graphic designer."
+            },
+        ],
+        "wednesday":[
+            {
+                "title":"Target analysis",
+                "text":"In order to analyse the target market of the project 8 user personas types have been created which reflect the ideal users we intend to address. <br> The invented personas have been characterized with: <br>- Personal information: name and surname, age, gender, marital status, number of children and age, location, occupation, annual salary, level of education. <br>- Bio: short story describing the personas. <br>- Hobbies: music, tv programs and movies, hobbies, books and magazines, politics, religion, holidays, fun, hero. <br>- Personal characteristics: character, security, insecurities and fears. <br> - Technology: computers, smartphones, social media. <br> Each personas then has a photograph and a phrase that characterizes him or her."
+            },
+        ],
+        "thursday":[
+            {
+                "title":"Target analysis",
+                "text":"The work of creating the personas has been completed."
+            },
+        ], 
+        
+    },
+
+
+
+
+    {
+        "title":"Week5",
+        "period":["28/09/2020","02/10/2020"],
+        "highlights":
+                    [
+                        
+                    ],
         "monday":[
             {
                 "title":"",
@@ -151,21 +200,22 @@ var data = [
             {
                 "title":"",
                 "text":""
-            },
+            }
         ],
         "thursday":[
             {
                 "title":"",
                 "text":""
-            },
-        ], 
+            }
+        ],
         "friday":[
             {
                 "title":"",
                 "text":""
-            },
-        ]
-    }
+            }
+        ],
+
+    },
 
 
 ]
