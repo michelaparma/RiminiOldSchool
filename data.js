@@ -182,36 +182,30 @@ var data = [
         "period":["28/09/2020","02/10/2020"],
         "highlights":
                     [
-                        
+                        "Definition of Rimini Old School website caategories",
+                        "Search for inspirational websites",
+                        "Scketches and development of websites wireframes"
                     ],
         "monday":[
             {
-                "title":"",
-                "text":""
+                "title":"Rimini Old School website analysis of required sections",
+                "text":"The necessary sections to be included in the website are: <br>NAVBAR which includes: <br>- Logo of Rimini Old School; <br>- About (page that explains who we are, our mission and how the project was born); <br>- Rimini Old School (drop-down menu that contains the 9 categories present on the site); <br>- Contacts (it will be possible to contact us through a form, subscribe to the newsletter, reach the Rimini Old School facebook profile and Instagram account) <br>- Search bar; <br>- Accessibility tool (allows users with visual or cognitive disabilities to facilitate the use of the website); <br>- Language selection (the languages available are Italian, English and German). <br><br>MAIN SECTION which includes strong visual hammers with a welcome blurb and the 9 main sections, that are: <br>1) Brand Cult '70, '80, '90 (where users will be able to select a brand among the historical ones proposed and insert a memory, experience, event related to the chosen brand); <br>2) Cult: Your stories (here you can read all the stories told by the community); <br>3) History: back to the past (blog in which you can read interviews and curiosities made by us); <br>4) Old School photos (digital archive with photos sent by users); <br>5) Old School Shop (shop where you can buy products and gadgets); <br>6) Support Rimini Old School (section where you can make donations and support the project); <br>7) Our partners; <br>8) Events (events organized by Rimini Old School); <br>9) Old School Radio (playlist with a selection of cult songs from the 70's, 80's and 90's). <br><br>FOOTER which includes: <br>-Links to Facebook page and Instagram account of Rimini Old School; <br>- Contacts; <br>- Logo; <br>- Privacy and cookies policy; <br>- Copyright."
+            },
+            {
+                "title":"Websites research",
+                "text":"Search for inspiring websites for the design of the Rimini Old School website interface. After finding some ideas I made some sketches for the user interface which I then submitted to the tutor for the final choice."
             }
         ],
         "tuesday":[
             {
-                "title":"",
-                "text":""
+                "title":"Wireframes development",
+                "text":"Creation of the user interface wifreframes through the tool offered by <a href=''>Balsamiq</a>. The aim is to create a basic and simplified preview of what the final site will be. The wireframes will be presented to any stakeholders who may or may not accept the proposal."
             }
         ],
         "wednesday":[
             {
-                "title":"",
-                "text":""
-            }
-        ],
-        "thursday":[
-            {
-                "title":"",
-                "text":""
-            }
-        ],
-        "friday":[
-            {
-                "title":"",
-                "text":""
+                "title":"Wireframes developmente: work in progress",
+                "text":"Wednesday, Thursday and Friday were spent for the realization of the wireframes related to all sections of the site."
             }
         ],
 
