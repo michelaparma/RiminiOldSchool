@@ -199,7 +199,7 @@ var data = [
         "tuesday":[
             {
                 "title":"Wireframes development",
-                "text":"Creation of the user interface wifreframes through the tool offered by <a href=''>Balsamiq</a>. The aim is to create a basic and simplified preview of what the final site will be. The wireframes will be presented to any stakeholders who may or may not accept the proposal."
+                "text":"Creation of the user interface wifreframes through the tool offered by <a href='https://balsamiq.com/'>Balsamiq</a>. The aim is to create a basic and simplified preview of what the final site will be. The wireframes will be presented to any stakeholders who may or may not accept the proposal."
             }
         ],
         "wednesday":[
