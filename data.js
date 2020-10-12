@@ -151,7 +151,7 @@ var data = [
             },
 
             {   "title":"Definition of budgeting",
-                "text":"The cost and revenue budget of the project has been studied taking into account two plans: <br>- Excellence plan: high budget. <br>- Step-by-step plan: medium budget. <br>The budgeting plan is available here: <a href='https://docs.google.com/spreadsheets/d/1oK7Q1fnahbwBfpNqJgNAqAjRt8vtCI_DP1AOWKFebXE/edit?usp=sharing>' target='_blank'> Ricavi/Costi</a>"
+                "text":"The cost and revenue budget of the project has been studied taking into account two plans: <br>- Excellence plan: high budget. <br>- Step-by-step plan: medium budget. <br>The budgeting plan is available here: <a href='https://docs.google.com/spreadsheets/d/1oK7Q1fnahbwBfpNqJgNAqAjRt8vtCI_DP1AOWKFebXE/edit?usp=sharing' target='_blank'> Ricavi/Costi</a>"
             }, 
 
             {
@@ -167,8 +167,8 @@ var data = [
         ],
         "thursday":[
             {
-                "title":"Target analysis",
-                "text":"The work of creating the personas has been completed."
+                "title":"Target analysis and report",
+                "text":"The work of creating the personas has been completed. The feasibility study report with target market analysis and User Personas cards is available here: <a href='https://docs.google.com/document/d/1Mi8kbtZ2neZPTIH4LlU5J3X1rqiILg_xBGucdw3gYEs/edit?usp=sharing' target='_blank'> Feasibility Study</a>"
             },
         ], 
         
@@ -182,7 +182,7 @@ var data = [
         "period":["28/09/2020","02/10/2020"],
         "highlights":
                     [
-                        "Definition of Rimini Old School website caategories",
+                        "Definition of Rimini Old School website ategories",
                         "Search for inspirational websites",
                         "Scketches and development of websites wireframes"
                     ],
@@ -199,7 +199,7 @@ var data = [
         "tuesday":[
             {
                 "title":"Wireframes development",
-                "text":"Creation of the user interface wifreframes through the tool offered by <a href='https://balsamiq.com/'>Balsamiq</a>. The aim is to create a basic and simplified preview of what the final site will be. The wireframes will be presented to any stakeholders who may or may not accept the proposal."
+                "text":"Creation of the user interface wifreframes through the tool offered by <a href='https://balsamiq.com/' target='_blank'>Balsamiq</a>. The aim is to create a basic and simplified preview of what the final site will be. The wireframes will be presented to any stakeholders who may or may not accept the proposal."
             }
         ],
         "wednesday":[
@@ -208,6 +208,31 @@ var data = [
                 "text":"Wednesday, Thursday and Friday were spent for the realization of the wireframes related to all sections of the site."
             }
         ],
+
+    },
+
+
+    {
+        "title":"Week6",
+        "period":["05/10/2020","09/10/2020"],
+        "highlights":
+                    [
+                        "Wireframes creation: desktop and mobile versions.",
+
+                        "Design proposal report"
+                    ],
+        "monday":[
+            {   
+                "title":"Wireframes for desktop and mobile",
+                "text":" They are available here: <br><a href='https://drive.google.com/file/d/1Nj22_i24TbvLUY3xc85r6NFPh3EkDVJ6/view?usp=sharing' target='_blank'> Desktop version</a> <br> <a href='https://drive.google.com/file/d/197qGKcYoHhNZnBH4OgamA3Oucq-euP27/view?usp=sharing' target='_blank'> Mobile version</a> <br>It is necessary to download them to test the functionality"
+            },
+
+            {   
+                "title":"Design proposal report",
+                "text":" The design proposal report contains the following analysis: <br>- Information Architecture: analysis of the structure of the site's content, how the information is structured and how it links together; <br>- Interaction design; <br>- Structure blueprint: drawings that define the component for the organization of the content and how these components are connected to each other; <br> - Evaluation of the design: inspection of the project. <br> The report is available here:<a href='https://docs.google.com/document/d/1zMBondtsJaNSQsGF3t7K1WwVju05B-UUFAE9wnZpyM4/edit?usp=sharing' target='_blank'> Design proposal</a> "
+            },
+            
+        ]
 
     },
 
