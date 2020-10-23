@@ -236,5 +236,90 @@ var data = [
 
     },
 
+    {
+        "title":"Week7",
+        "period":["12/10/2020","16/10/2020"],
+        "highlights":
+                    [
+                        "User tests on desktop and mobile wireframes",
+
+                        "User tests report"
+                    ],
+        "monday":[
+            {   
+                "title":"Inspection of the project",
+                "text":"The prototype was analysed according to Nielsen & Molich's 10 heuristics, which include: <br>1 - Visibility of system status; <br> 2 - Match between system and the real world; <br>3 - User control and freedom; <br>4 - Consistency and standards; <br>5 - Error prevention; <br>6 - Recognition rather than recall; <br>7 - Flexibility and efficiency of use; <br>8 - Aesthetic and minimalist design; <br>9 - Help users recognize, diagnose and recover from errors; <br>10 - Help and documentation."
+            },
+
+            {   
+                "title":"Testing phase",
+                "text":" In order to test the usability and robustness of the produced system, 6 real users have been selected that fall within the identified target. 3 users tested desktop wireframes and 3 others tested mobile wireframes. All users were asked to perform 6 tasks on the system. <br> The tasks were: <br>1 - Look for general information about the Rimini Old School project, for example: who we are, our objectives, our purpose; <br>2 - Change the language of the website from Italian to English; <br>3 - Telling a memory about Rimini, in particular about the Cocoricò; <br>4 - Read the stories of the community related to Cocoricò and evaluate with 5 stars the story of a person; <br>5 - Buy a white T-Shirt with Rimini Old School logo white, size M, men's model; <br>6 - Subscribe to the newsletter. <br> <br> The testers’ performance have been classified with the metrics proposed by usability.gov that include: <br>- Successful Task Completion​: Each scenario requires the participant to obtain specific data that would be used in a typical task. The scenario is successfully completed when the participant indicates they have found the answer or completed the task goal. <br>- Critical Errors​: Critical errors are deviations at completion from the targets of the scenario. Essentially the participant will not be able to finish the task. Participants may or may not be aware that the task goal is incorrect or incomplete. <br>- Non-Critical Errors​: Non-critical errors are errors that are recovered by the participant and do not result in the participant’s ability to successfully complete the task. These errors result in the task being completed less efficiently. <br>- Time On Task​: The amount of time it takes the participant to complete the task. <br>- Likes, Dislikes and Recommendations (General considerations): Participants provide what they liked most about the site, what they liked least about the site, and recommendations for improving the site."
+            },
+
+            {   
+                "title":"User test n. 1 - Tester A: Fabrizio",
+                "text":"The first user to test desktop wireframes is Fabrizio, a 53-year-old business consultant. <br> The user is familiar with the computer, as he uses it daily for work, and often browses online. In fact, he has had no difficulty in completing tasks but has been critical of some aspects of the design of the web site. In particular he suggested to: <br>- delete the gear icon to enclose the accessibility tools and the language change setting. He suggested separating the two functions so that they are immediately obvious to the user; <br>- delete the envelope icon to indicate the contacts because it seems that through that icon the user sends an email to the staff. He suggests writing 'contacts' to enclose the possibility to contact us, to subscribe to the newsletter and to reach us on social channels; <br>- change the symbol of the shopping concept from shopping bag to cart because it is more used. <br><br>However, the user expressed interest in the project and he said he would gladly use the website. <br><br> After test changes: <br>The changes made to the wireframes after the test correspond to the suggestions provided by the user."
+            },
+            
+        ], 
+
+
+        "tuesday":[
+
+            {   
+                "title":"User test n. 2 - Tester B: Carla",
+                "text":"The second user to test desktop wireframes is Carla, a 53-year-old primary school teacher. <br> The user has completed almost all tasks quickly. This proves that the changes made have actually improved the usability of the site. The only task where the user had problems is task no. 3, where she had to tell a memory about Rimini. The user inspected several sections before finding the correct one. She said she was confused by the pencil icon relating to the 'Cult: your stories' section because it suggested the idea of writing, telling and she continued to inspect this section to find ways to complete the task. Her suggestion was to reverse the icons associated with the <i>'Tells about Rimini: '70, '80, '90 '</i> and <i> 'Cult: your stories'</i> sections. <br>Even if the user does not use the computer frequently and usually needs the support of another person to surf online, she was overall satisfied with the site interface and interaction. <br><br>After test changes:<br> The change made after the test relates to the icons that distinguish the <i>'Tells about Rimini: '70, '80, '90 '</i> and <i>'Cult: your stories'</i> sections."
+            },
+
+            {   
+                "title":"User test n. 3 - Tester C: Giancarlo",
+                "text":"The third user to test desktop wireframes is GianCarlo, a 55-year-old photo printer. <br> The user test was very fast and he completed all the tasks without any problems. Once again, the changes made show an improvement in usability. The user declares that he is familiar with the use of computers and online browsing. He also states that the design of the site is well done, schematic, and recalls labels and icons that are familiar to him. <br> <br> After test changes:<br> The user has not had any problems with the structure of the site and he has not suggested any changes so the design of the site has remained unchanged."
+            },
+            
+        ], 
+
+
+
+        "wednesday":[
+
+            {   
+                "title":"User test n. 4 - Tester D: Claudia",
+                "text":"The fist user to test mobile wireframes is Claudia, a 40-years-old accountant. <br>The user is in the youngest target group and is familiar with the use of electronic devices. In particular, she uses the computer for work and the mobile phone on a daily basis to surf the web and social networks. Therefore, she has not had any problems using the interface and she has carried out the tasks very quickly. She says the system has a simple interface, easy to store and with labels that recall those commonly used on the web. <br><br>After test changes: <br>The user was not in difficulty in any section of the prototype and did not suggest any improvement, so no changes were made to the system."
+            },
+
+            {   
+                "title":"User test n. 5 - Tester E: Simona",
+                "text":" The second user to test mobile wireframes is Simona, a 49-years-old wages consultant. <br>In general the user has completed the tasks without any problems. She had a primary difficulty in finding general information about the project (task no. 1) because she had not carefully examined the whole wireframes. She justified herself by saying that she is not very familiar with mobile surfing, she usually uses a PC. After having better understood the structure of the site and the navigation functions, she had no more problems. <br><br>After test changes: <br>Since the user was satisfied with the prototype and did not suggest any changes, no changes were made to the system."
+            },
+            
+        ], 
+
+
+        "thursday":[
+
+            {   
+                "title":"User test n. 6 - Tester F: Cinzia",
+                "text":"The third user to test mobile wireframes is Cinzia, a 46-years-old hospital nurse. <br>The user is not a technology enthusiast and claims to have difficulties in using the websites, but still she surfs online. In general she didn't have any difficulty in completing the tasks, except for task no. 3 where she was convinced that she had completed the task but actually she was in the wrong section, and task no. 6 which she decided to abandon because she didn't know where to look for the newsletter subscription. I believe that the user was not able to complete the tasks because clearly in agitation, probably due to the fate of not wanting to make a bad impression. <br><br>After test changes: <br>No changes have been made after the test."
+            },
+
+            {   
+                "title":"Post testing phase",
+                "text":"General considerations on the test phase have been made: <br>overall, the tests were carried out quickly and without too much difficulty by the users. Some users highlighted some critical points that have been improved and indeed the changes made to the design have had the desired effect, i.e. simplifying the use of the interface. Users showed interest in the project and stated that the design of the site allows for fluid and simple navigation without too many obstacles that distract attention from completing the task."
+            },
+            
+        ], 
+
+        "friday":[
+
+            {   
+                "title":"Report",
+                "text":"The report on design evaluation, user testing and post testing phase considerations is available here: <a href='https://docs.google.com/document/d/1w3OLBDzB-WG-5BgcLcA9VzfQs53yqamSoM2_Up0HHFQ/edit?usp=sharing' target='_blank'> Evaluation of the design</a>"
+            },
+
+            
+        ], 
+
+    },
+
 
 ]
